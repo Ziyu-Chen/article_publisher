@@ -126,6 +126,7 @@ def main():
     publisher.login()
 
     publisher.load()
+    time.sleep(30)
     # a = publisher.browser.find_element_by_tag_name('textarea')
     # a.send_keys(Keys.CONTROL, 'v').perform()
     new_article_button = publisher.browser.find_element_by_class_name(
